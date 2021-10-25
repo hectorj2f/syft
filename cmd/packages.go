@@ -6,6 +6,8 @@ import (
 	"io/ioutil"
 	"os"
 
+	"github.com/anchore/syft/syft/sbom"
+
 	"github.com/anchore/syft/syft/format"
 
 	"github.com/anchore/stereoscope"
@@ -261,14 +263,17 @@ func packagesExecWorker(userInput string) <-chan error {
 			}
 		}
 
-		bus.Publish(partybus.Event{
-			Type: event.PresenterReady,
-			Value: packages.Presenter(packagesPresenterOpt, packages.PresenterConfig{
-				SourceMetadata: src.Metadata,
-				Catalog:        catalog,
+		sbomResult := sbom.SBOM{
+			Artifacts: sbom.Artifacts{
+				PackageCatalog: catalog,
 				Distro:         d,
-				Scope:          appConfig.Package.Cataloger.ScopeOpt,
-			}),
+			},
+			Source: src.Metadata,
+		}
+
+		bus.Publish(partybus.Event{
+			Type:  event.PresenterReady,
+			Value: packages.Presenter(packagesPresenterOpt, sbomResult),
 		})
 	}()
 	return errs
