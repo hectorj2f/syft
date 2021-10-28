@@ -109,7 +109,7 @@ func powerUserExecWorker(userInput string) <-chan error {
 		}
 		defer cleanup()
 
-		analysisResults := sbom.SBOM{
+		s := sbom.SBOM{
 			Source: src.Metadata,
 		}
 
@@ -118,7 +118,8 @@ func powerUserExecWorker(userInput string) <-chan error {
 			wg.Add(1)
 			go func(task powerUserTask) {
 				defer wg.Done()
-				if err = task(&analysisResults.Artifacts, src); err != nil {
+				relationships, err := task(&s.Artifacts, src)
+				if err != nil {
 					errs <- err
 					return
 				}
@@ -129,7 +130,7 @@ func powerUserExecWorker(userInput string) <-chan error {
 
 		bus.Publish(partybus.Event{
 			Type:  event.PresenterReady,
-			Value: poweruser.NewJSONPresenter(analysisResults, *appConfig),
+			Value: poweruser.NewJSONPresenter(s, *appConfig),
 		})
 	}()
 	return errs
