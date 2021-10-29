@@ -28,8 +28,8 @@ func ownershipByFilesRelationships(catalog *Catalog) []artifact.Relationship {
 	for parent, children := range relationships {
 		for child, files := range children {
 			edges = append(edges, artifact.Relationship{
-				From: parent,
-				To:   child,
+				From: catalog.byID[parent],
+				To:   catalog.byID[child],
 				Type: artifact.OwnershipByFileOverlapRelationship,
 				Data: ownershipByFilesMetadata{
 					Files: files.List(),
@@ -68,18 +68,20 @@ func findOwnershipByFilesRelationships(catalog *Catalog) map[artifact.ID]map[art
 			}
 
 			// look for package(s) in the catalog that may be owned by this package and mark the relationship
+			candidateID := candidateOwnerPkg.Identity()
 			for _, subPackage := range catalog.PackagesByPath(ownedFilePath) {
-				if subPackage.ID == candidateOwnerPkg.ID {
+				subID := subPackage.Identity()
+				if subID == candidateID {
 					continue
 				}
-				if _, exists := relationships[candidateOwnerPkg.ID]; !exists {
-					relationships[candidateOwnerPkg.ID] = make(map[artifact.ID]*strset.Set)
+				if _, exists := relationships[candidateID]; !exists {
+					relationships[candidateID] = make(map[artifact.ID]*strset.Set)
 				}
 
-				if _, exists := relationships[candidateOwnerPkg.ID][subPackage.ID]; !exists {
-					relationships[candidateOwnerPkg.ID][subPackage.ID] = strset.New()
+				if _, exists := relationships[candidateID][subID]; !exists {
+					relationships[candidateID][subID] = strset.New()
 				}
-				relationships[candidateOwnerPkg.ID][subPackage.ID].Add(ownedFilePath)
+				relationships[candidateID][subID].Add(ownedFilePath)
 			}
 		}
 	}

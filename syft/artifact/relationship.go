@@ -5,11 +5,15 @@ const (
 	OwnershipByFileOverlapRelationship RelationshipType = "ownership-by-file-overlap"
 )
 
+type Identifiable interface {
+	Identity() ID
+}
+
 type RelationshipType string
 
 type Relationship struct {
-	From ID               `json:"from"`
-	To   ID               `json:"to"`
+	From Identifiable     `json:"from"`
+	To   Identifiable     `json:"to"`
 	Type RelationshipType `json:"type"`
 	Data interface{}      `json:"data,omitempty"`
 }

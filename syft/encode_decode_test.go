@@ -35,14 +35,15 @@ func TestEncodeDecodeEncodeCycleComparison(t *testing.T) {
 			if err != nil {
 				t.Fatalf("cant get dir")
 			}
-			originalCatalog, d, err := CatalogPackages(&src, source.SquashedScope)
+			originalCatalog, relationships, d, err := CatalogPackages(&src, source.SquashedScope)
 
 			originalSBOM := sbom.SBOM{
 				Artifacts: sbom.Artifacts{
 					PackageCatalog: originalCatalog,
 					Distro:         d,
 				},
-				Source: src.Metadata,
+				Relationships: relationships,
+				Source:        src.Metadata,
 			}
 
 			by1, err := Encode(originalSBOM, test.format)

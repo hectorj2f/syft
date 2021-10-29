@@ -71,7 +71,7 @@ func toPackageModel(p *pkg.Package) model.Package {
 
 	return model.Package{
 		PackageBasicData: model.PackageBasicData{
-			ID:        string(p.ID),
+			ID:        string(p.Identity()),
 			Name:      p.Name,
 			Version:   p.Version,
 			Type:      p.Type,
@@ -93,8 +93,8 @@ func toRelationshipModel(relationships []artifact.Relationship) []model.Relation
 	result := make([]model.Relationship, len(relationships))
 	for i, r := range relationships {
 		result[i] = model.Relationship{
-			Parent:   string(r.From),
-			Child:    string(r.To),
+			Parent:   string(r.From.Identity()),
+			Child:    string(r.To.Identity()),
 			Type:     string(r.Type),
 			Metadata: r.Data,
 		}
