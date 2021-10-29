@@ -11,9 +11,9 @@ import (
 var updateSpdxTagValue = flag.Bool("update-spdx-tv", false, "update the *.golden files for spdx-tv presenters")
 
 func TestSPDXTagValueDirectoryPresenter(t *testing.T) {
-	catalog, metadata, _ := testutils.DirectoryInput(t)
+	s := testutils.DirectoryInput(t)
 	testutils.AssertPresenterAgainstGoldenSnapshot(t,
-		NewSPDXTagValuePresenter(catalog, metadata),
+		NewSPDXTagValuePresenter(s.Artifacts.PackageCatalog, s.Source),
 		*updateSpdxTagValue,
 		spdxTagValueRedactor,
 	)
@@ -21,9 +21,9 @@ func TestSPDXTagValueDirectoryPresenter(t *testing.T) {
 
 func TestSPDXTagValueImagePresenter(t *testing.T) {
 	testImage := "image-simple"
-	catalog, metadata, _ := testutils.ImageInput(t, testImage)
+	s := testutils.ImageInput(t, testImage)
 	testutils.AssertPresenterAgainstGoldenImageSnapshot(t,
-		NewSPDXTagValuePresenter(catalog, metadata),
+		NewSPDXTagValuePresenter(s.Artifacts.PackageCatalog, s.Source),
 		testImage,
 		*updateSpdxTagValue,
 		spdxTagValueRedactor,
