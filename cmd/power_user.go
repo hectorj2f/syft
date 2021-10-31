@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/anchore/syft/syft/artifact"
+
 	"github.com/anchore/syft/syft/sbom"
 
 	"github.com/anchore/stereoscope"
@@ -113,20 +115,17 @@ func powerUserExecWorker(userInput string) <-chan error {
 			Source: src.Metadata,
 		}
 
-		wg := &sync.WaitGroup{}
+		var results []<-chan artifact.Relationship
 		for _, task := range tasks {
-			wg.Add(1)
-			go func(task powerUserTask) {
-				defer wg.Done()
-				relationships, err := task(&s.Artifacts, src)
-				if err != nil {
-					errs <- err
-					return
-				}
-			}(task)
+			c := make(chan artifact.Relationship)
+			results = append(results, c)
+
+			go runTask(task, &s.Artifacts, src, c, errs)
 		}
 
-		wg.Wait()
+		for relationship := range mergeResults(results...) {
+			s.Relationships = append(s.Relationships, relationship)
+		}
 
 		bus.Publish(partybus.Event{
 			Type:  event.PresenterReady,
@@ -134,4 +133,39 @@ func powerUserExecWorker(userInput string) <-chan error {
 		})
 	}()
 	return errs
+}
+
+func runTask(t powerUserTask, a *sbom.Artifacts, src *source.Source, c chan<- artifact.Relationship, errs chan<- error) {
+	defer close(c)
+
+	relationships, err := t(a, src)
+	if err != nil {
+		errs <- err
+		return
+	}
+
+	for _, relationship := range relationships {
+		c <- relationship
+	}
+}
+
+func mergeResults(cs ...<-chan artifact.Relationship) <-chan artifact.Relationship {
+	var wg sync.WaitGroup
+	var results = make(chan artifact.Relationship)
+
+	wg.Add(len(cs))
+	for _, c := range cs {
+		go func(c <-chan artifact.Relationship) {
+			for n := range c {
+				results <- n
+			}
+			wg.Done()
+		}(c)
+	}
+
+	go func() {
+		wg.Wait()
+		close(results)
+	}()
+	return results
 }

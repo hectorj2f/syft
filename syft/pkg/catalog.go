@@ -76,7 +76,7 @@ func (c *Catalog) Add(p Package) {
 			return
 		}
 
-		// TODO: migrate this to artifact pacakge
+		// TODO: migrate this to artifact package
 		p.ID = artifact.ID(fingerprint)
 	}
 
