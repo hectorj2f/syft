@@ -1,0 +1,1569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" version="1" serialNumber="urn:uuid:c71eb575-8f60-4887-b373-7e734f139625">
+  <metadata>
+    <timestamp>2021-10-26T12:18:33+02:00</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>0.27.0</version>
+      </tool>
+    </tools>
+    <component type="file">
+      <name>/Users/hectorj2f/vmware/canal</name>
+      <version></version>
+    </component>
+  </metadata>
+  <components>
+    <component type="library">
+      <name>4d63.com/gochecknoglobals</name>
+      <version>v0.0.0-20201008074935-acfc0b28355a</version>
+      <purl>pkg:golang/4d63.com/gochecknoglobals@v0.0.0-20201008074935-acfc0b28355a</purl>
+    </component>
+    <component type="library">
+      <name>cloud.google.com/go</name>
+      <version>v0.60.0</version>
+      <purl>pkg:golang/cloud.google.com/go@v0.60.0</purl>
+    </component>
+    <component type="library">
+      <name>cloud.google.com/go</name>
+      <version>v0.60.0</version>
+      <purl>pkg:golang/cloud.google.com/go@v0.60.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/Antonboom/errname</name>
+      <version>v0.1.4</version>
+      <purl>pkg:golang/github.com/Antonboom/errname@v0.1.4</purl>
+    </component>
+    <component type="library">
+      <name>github.com/Azure/go-autorest</name>
+      <version>v14.2.0+incompatible</version>
+      <purl>pkg:golang/github.com/Azure/go-autorest@v14.2.0+incompatible</purl>
+    </component>
+    <component type="library">
+      <name>github.com/Azure/go-autorest/autorest</name>
+      <version>v0.11.1</version>
+      <purl>pkg:golang/github.com/Azure/go-autorest/autorest@v0.11.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/Azure/go-autorest/autorest</name>
+      <version>v0.11.1</version>
+      <purl>pkg:golang/github.com/Azure/go-autorest/autorest@v0.11.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/Azure/go-autorest/autorest/adal</name>
+      <version>v0.9.5</version>
+      <purl>pkg:golang/github.com/Azure/go-autorest/autorest/adal@v0.9.5</purl>
+    </component>
+    <component type="library">
+      <name>github.com/Azure/go-autorest/autorest/adal</name>
+      <version>v0.9.5</version>
+      <purl>pkg:golang/github.com/Azure/go-autorest/autorest/adal@v0.9.5</purl>
+    </component>
+    <component type="library">
+      <name>github.com/Azure/go-autorest/autorest/date</name>
+      <version>v0.3.0</version>
+      <purl>pkg:golang/github.com/Azure/go-autorest/autorest/date@v0.3.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/Azure/go-autorest/autorest/date</name>
+      <version>v0.3.0</version>
+      <purl>pkg:golang/github.com/Azure/go-autorest/autorest/date@v0.3.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/Azure/go-autorest/logger</name>
+      <version>v0.2.0</version>
+      <purl>pkg:golang/github.com/Azure/go-autorest/logger@v0.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/Azure/go-autorest/logger</name>
+      <version>v0.2.0</version>
+      <purl>pkg:golang/github.com/Azure/go-autorest/logger@v0.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/Azure/go-autorest/tracing</name>
+      <version>v0.6.0</version>
+      <purl>pkg:golang/github.com/Azure/go-autorest/tracing@v0.6.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/Azure/go-autorest/tracing</name>
+      <version>v0.6.0</version>
+      <purl>pkg:golang/github.com/Azure/go-autorest/tracing@v0.6.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/BurntSushi/toml</name>
+      <version>v0.4.1</version>
+      <purl>pkg:golang/github.com/BurntSushi/toml@v0.4.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/CycloneDX/cyclonedx-go</name>
+      <version>v0.4.0</version>
+      <purl>pkg:golang/github.com/CycloneDX/cyclonedx-go@v0.4.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/CycloneDX/cyclonedx-go</name>
+      <version>v0.4.0</version>
+      <purl>pkg:golang/github.com/CycloneDX/cyclonedx-go@v0.4.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/Djarvur/go-err113</name>
+      <version>v0.0.0-20210108212216-aea10b59be24</version>
+      <purl>pkg:golang/github.com/Djarvur/go-err113@v0.0.0-20210108212216-aea10b59be24</purl>
+    </component>
+    <component type="library">
+      <name>github.com/Masterminds/semver</name>
+      <version>v1.5.0</version>
+      <purl>pkg:golang/github.com/Masterminds/semver@v1.5.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/OneOfOne/xxhash</name>
+      <version>v1.2.8</version>
+      <purl>pkg:golang/github.com/OneOfOne/xxhash@v1.2.8</purl>
+    </component>
+    <component type="library">
+      <name>github.com/OneOfOne/xxhash</name>
+      <version>v1.2.8</version>
+      <purl>pkg:golang/github.com/OneOfOne/xxhash@v1.2.8</purl>
+    </component>
+    <component type="library">
+      <name>github.com/OpenPeeDeeP/depguard</name>
+      <version>v1.0.1</version>
+      <purl>pkg:golang/github.com/OpenPeeDeeP/depguard@v1.0.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/alexkohler/prealloc</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/github.com/alexkohler/prealloc@v1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/ashanbrown/forbidigo</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/github.com/ashanbrown/forbidigo@v1.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/ashanbrown/makezero</name>
+      <version>v0.0.0-20210520155254-b6261585ddde</version>
+      <purl>pkg:golang/github.com/ashanbrown/makezero@v0.0.0-20210520155254-b6261585ddde</purl>
+    </component>
+    <component type="library">
+      <name>github.com/beorn7/perks</name>
+      <version>v1.0.1</version>
+      <purl>pkg:golang/github.com/beorn7/perks@v1.0.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/beorn7/perks</name>
+      <version>v1.0.1</version>
+      <purl>pkg:golang/github.com/beorn7/perks@v1.0.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/beorn7/perks</name>
+      <version>v1.0.1</version>
+      <purl>pkg:golang/github.com/beorn7/perks@v1.0.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/bkielbasa/cyclop</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/github.com/bkielbasa/cyclop@v1.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/bombsimon/wsl/v3</name>
+      <version>v3.3.0</version>
+      <purl>pkg:golang/github.com/bombsimon/wsl/v3@v3.3.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/bytecodealliance/wasmtime-go</name>
+      <version>v0.27.0</version>
+      <purl>pkg:golang/github.com/bytecodealliance/wasmtime-go@v0.27.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/cespare/xxhash/v2</name>
+      <version>v2.1.1</version>
+      <purl>pkg:golang/github.com/cespare/xxhash/v2@v2.1.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/cespare/xxhash/v2</name>
+      <version>v2.1.1</version>
+      <purl>pkg:golang/github.com/cespare/xxhash/v2@v2.1.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/cespare/xxhash/v2</name>
+      <version>v2.1.1</version>
+      <purl>pkg:golang/github.com/cespare/xxhash/v2@v2.1.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/charithe/durationcheck</name>
+      <version>v0.0.8</version>
+      <purl>pkg:golang/github.com/charithe/durationcheck@v0.0.8</purl>
+    </component>
+    <component type="library">
+      <name>github.com/chavacava/garif</name>
+      <version>v0.0.0-20210405164556-e8a0a408d6af</version>
+      <purl>pkg:golang/github.com/chavacava/garif@v0.0.0-20210405164556-e8a0a408d6af</purl>
+    </component>
+    <component type="library">
+      <name>github.com/daixiang0/gci</name>
+      <version>v0.2.9</version>
+      <purl>pkg:golang/github.com/daixiang0/gci@v0.2.9</purl>
+    </component>
+    <component type="library">
+      <name>github.com/davecgh/go-spew</name>
+      <version>v1.1.1</version>
+      <purl>pkg:golang/github.com/davecgh/go-spew@v1.1.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/davecgh/go-spew</name>
+      <version>v1.1.1</version>
+      <purl>pkg:golang/github.com/davecgh/go-spew@v1.1.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/davecgh/go-spew</name>
+      <version>v1.1.1</version>
+      <purl>pkg:golang/github.com/davecgh/go-spew@v1.1.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/denis-tingajkin/go-header</name>
+      <version>v0.4.2</version>
+      <purl>pkg:golang/github.com/denis-tingajkin/go-header@v0.4.2</purl>
+    </component>
+    <component type="library">
+      <name>github.com/esimonov/ifshort</name>
+      <version>v1.0.2</version>
+      <purl>pkg:golang/github.com/esimonov/ifshort@v1.0.2</purl>
+    </component>
+    <component type="library">
+      <name>github.com/ettle/strcase</name>
+      <version>v0.1.1</version>
+      <purl>pkg:golang/github.com/ettle/strcase@v0.1.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/evanphx/json-patch</name>
+      <version>v4.9.0+incompatible</version>
+      <purl>pkg:golang/github.com/evanphx/json-patch@v4.9.0+incompatible</purl>
+    </component>
+    <component type="library">
+      <name>github.com/evanphx/json-patch</name>
+      <version>v4.9.0+incompatible</version>
+      <purl>pkg:golang/github.com/evanphx/json-patch@v4.9.0+incompatible</purl>
+    </component>
+    <component type="library">
+      <name>github.com/fatih/color</name>
+      <version>v1.12.0</version>
+      <purl>pkg:golang/github.com/fatih/color@v1.12.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/fatih/color</name>
+      <version>v1.7.0</version>
+      <purl>pkg:golang/github.com/fatih/color@v1.7.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/fatih/structtag</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/github.com/fatih/structtag@v1.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/form3tech-oss/jwt-go</name>
+      <version>v3.2.2+incompatible</version>
+      <purl>pkg:golang/github.com/form3tech-oss/jwt-go@v3.2.2+incompatible</purl>
+    </component>
+    <component type="library">
+      <name>github.com/form3tech-oss/jwt-go</name>
+      <version>v3.2.2+incompatible</version>
+      <purl>pkg:golang/github.com/form3tech-oss/jwt-go@v3.2.2+incompatible</purl>
+    </component>
+    <component type="library">
+      <name>github.com/fsnotify/fsnotify</name>
+      <version>v1.4.9</version>
+      <purl>pkg:golang/github.com/fsnotify/fsnotify@v1.4.9</purl>
+    </component>
+    <component type="library">
+      <name>github.com/fsnotify/fsnotify</name>
+      <version>v1.4.9</version>
+      <purl>pkg:golang/github.com/fsnotify/fsnotify@v1.4.9</purl>
+    </component>
+    <component type="library">
+      <name>github.com/fsnotify/fsnotify</name>
+      <version>v1.4.9</version>
+      <purl>pkg:golang/github.com/fsnotify/fsnotify@v1.4.9</purl>
+    </component>
+    <component type="library">
+      <name>github.com/fzipp/gocyclo</name>
+      <version>v0.3.1</version>
+      <purl>pkg:golang/github.com/fzipp/gocyclo@v0.3.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/ghodss/yaml</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/github.com/ghodss/yaml@v1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/ghodss/yaml</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/github.com/ghodss/yaml@v1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/go-critic/go-critic</name>
+      <version>v0.5.6</version>
+      <purl>pkg:golang/github.com/go-critic/go-critic@v0.5.6</purl>
+    </component>
+    <component type="library">
+      <name>github.com/go-logr/logr</name>
+      <version>v0.3.0</version>
+      <purl>pkg:golang/github.com/go-logr/logr@v0.3.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/go-logr/logr</name>
+      <version>v0.3.0</version>
+      <purl>pkg:golang/github.com/go-logr/logr@v0.3.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/go-logr/zapr</name>
+      <version>v0.2.0</version>
+      <purl>pkg:golang/github.com/go-logr/zapr@v0.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/go-logr/zapr</name>
+      <version>v0.2.0</version>
+      <purl>pkg:golang/github.com/go-logr/zapr@v0.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/go-toolsmith/astcast</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/github.com/go-toolsmith/astcast@v1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/go-toolsmith/astcopy</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/github.com/go-toolsmith/astcopy@v1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/go-toolsmith/astequal</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/github.com/go-toolsmith/astequal@v1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/go-toolsmith/astfmt</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/github.com/go-toolsmith/astfmt@v1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/go-toolsmith/astp</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/github.com/go-toolsmith/astp@v1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/go-toolsmith/strparse</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/github.com/go-toolsmith/strparse@v1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/go-toolsmith/typep</name>
+      <version>v1.0.2</version>
+      <purl>pkg:golang/github.com/go-toolsmith/typep@v1.0.2</purl>
+    </component>
+    <component type="library">
+      <name>github.com/go-xmlfmt/xmlfmt</name>
+      <version>v0.0.0-20191208150333-d5b6f63a941b</version>
+      <purl>pkg:golang/github.com/go-xmlfmt/xmlfmt@v0.0.0-20191208150333-d5b6f63a941b</purl>
+    </component>
+    <component type="library">
+      <name>github.com/gobuffalo/flect</name>
+      <version>v0.2.0</version>
+      <purl>pkg:golang/github.com/gobuffalo/flect@v0.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/gobwas/glob</name>
+      <version>v0.2.3</version>
+      <purl>pkg:golang/github.com/gobwas/glob@v0.2.3</purl>
+    </component>
+    <component type="library">
+      <name>github.com/gobwas/glob</name>
+      <version>v0.2.3</version>
+      <purl>pkg:golang/github.com/gobwas/glob@v0.2.3</purl>
+    </component>
+    <component type="library">
+      <name>github.com/gobwas/glob</name>
+      <version>v0.2.3</version>
+      <purl>pkg:golang/github.com/gobwas/glob@v0.2.3</purl>
+    </component>
+    <component type="library">
+      <name>github.com/gofrs/flock</name>
+      <version>v0.8.1</version>
+      <purl>pkg:golang/github.com/gofrs/flock@v0.8.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v1.3.1</version>
+      <purl>pkg:golang/github.com/gogo/protobuf@v1.3.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v1.3.1</version>
+      <purl>pkg:golang/github.com/gogo/protobuf@v1.3.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v1.3.1</version>
+      <purl>pkg:golang/github.com/gogo/protobuf@v1.3.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/golang/groupcache</name>
+      <version>v0.0.0-20200121045136-8c9f03a8e57e</version>
+      <purl>pkg:golang/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e</purl>
+    </component>
+    <component type="library">
+      <name>github.com/golang/groupcache</name>
+      <version>v0.0.0-20200121045136-8c9f03a8e57e</version>
+      <purl>pkg:golang/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e</purl>
+    </component>
+    <component type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.5.2</version>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.5.2</purl>
+    </component>
+    <component type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.5.2</version>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.5.2</purl>
+    </component>
+    <component type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.5.2</version>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.5.2</purl>
+    </component>
+    <component type="library">
+      <name>github.com/golangci/check</name>
+      <version>v0.0.0-20180506172741-cfe4005ccda2</version>
+      <purl>pkg:golang/github.com/golangci/check@v0.0.0-20180506172741-cfe4005ccda2</purl>
+    </component>
+    <component type="library">
+      <name>github.com/golangci/dupl</name>
+      <version>v0.0.0-20180902072040-3e9179ac440a</version>
+      <purl>pkg:golang/github.com/golangci/dupl@v0.0.0-20180902072040-3e9179ac440a</purl>
+    </component>
+    <component type="library">
+      <name>github.com/golangci/go-misc</name>
+      <version>v0.0.0-20180628070357-927a3d87b613</version>
+      <purl>pkg:golang/github.com/golangci/go-misc@v0.0.0-20180628070357-927a3d87b613</purl>
+    </component>
+    <component type="library">
+      <name>github.com/golangci/gofmt</name>
+      <version>v0.0.0-20190930125516-244bba706f1a</version>
+      <purl>pkg:golang/github.com/golangci/gofmt@v0.0.0-20190930125516-244bba706f1a</purl>
+    </component>
+    <component type="library">
+      <name>github.com/golangci/lint-1</name>
+      <version>v0.0.0-20191013205115-297bf364a8e0</version>
+      <purl>pkg:golang/github.com/golangci/lint-1@v0.0.0-20191013205115-297bf364a8e0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/golangci/maligned</name>
+      <version>v0.0.0-20180506175553-b1d89398deca</version>
+      <purl>pkg:golang/github.com/golangci/maligned@v0.0.0-20180506175553-b1d89398deca</purl>
+    </component>
+    <component type="library">
+      <name>github.com/golangci/misspell</name>
+      <version>v0.3.5</version>
+      <purl>pkg:golang/github.com/golangci/misspell@v0.3.5</purl>
+    </component>
+    <component type="library">
+      <name>github.com/golangci/revgrep</name>
+      <version>v0.0.0-20210208091834-cd28932614b5</version>
+      <purl>pkg:golang/github.com/golangci/revgrep@v0.0.0-20210208091834-cd28932614b5</purl>
+    </component>
+    <component type="library">
+      <name>github.com/golangci/unconvert</name>
+      <version>v0.0.0-20180507085042-28b1c447d1f4</version>
+      <purl>pkg:golang/github.com/golangci/unconvert@v0.0.0-20180507085042-28b1c447d1f4</purl>
+    </component>
+    <component type="library">
+      <name>github.com/google/go-cmp</name>
+      <version>v0.5.5</version>
+      <purl>pkg:golang/github.com/google/go-cmp@v0.5.5</purl>
+    </component>
+    <component type="library">
+      <name>github.com/google/go-cmp</name>
+      <version>v0.5.5</version>
+      <purl>pkg:golang/github.com/google/go-cmp@v0.5.5</purl>
+    </component>
+    <component type="library">
+      <name>github.com/google/go-cmp</name>
+      <version>v0.5.5</version>
+      <purl>pkg:golang/github.com/google/go-cmp@v0.5.5</purl>
+    </component>
+    <component type="library">
+      <name>github.com/google/gofuzz</name>
+      <version>v1.1.0</version>
+      <purl>pkg:golang/github.com/google/gofuzz@v1.1.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/google/gofuzz</name>
+      <version>v1.1.0</version>
+      <purl>pkg:golang/github.com/google/gofuzz@v1.1.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/google/gofuzz</name>
+      <version>v1.1.0</version>
+      <purl>pkg:golang/github.com/google/gofuzz@v1.1.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/google/uuid</name>
+      <version>v1.1.2</version>
+      <purl>pkg:golang/github.com/google/uuid@v1.1.2</purl>
+    </component>
+    <component type="library">
+      <name>github.com/google/uuid</name>
+      <version>v1.1.2</version>
+      <purl>pkg:golang/github.com/google/uuid@v1.1.2</purl>
+    </component>
+    <component type="library">
+      <name>github.com/googleapis/gnostic</name>
+      <version>v0.5.1</version>
+      <purl>pkg:golang/github.com/googleapis/gnostic@v0.5.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/googleapis/gnostic</name>
+      <version>v0.5.1</version>
+      <purl>pkg:golang/github.com/googleapis/gnostic@v0.5.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/gordonklaus/ineffassign</name>
+      <version>v0.0.0-20210225214923-2e10b2664254</version>
+      <purl>pkg:golang/github.com/gordonklaus/ineffassign@v0.0.0-20210225214923-2e10b2664254</purl>
+    </component>
+    <component type="library">
+      <name>github.com/gostaticanalysis/analysisutil</name>
+      <version>v0.4.1</version>
+      <purl>pkg:golang/github.com/gostaticanalysis/analysisutil@v0.4.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/gostaticanalysis/comment</name>
+      <version>v1.4.1</version>
+      <purl>pkg:golang/github.com/gostaticanalysis/comment@v1.4.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/gostaticanalysis/forcetypeassert</name>
+      <version>v0.0.0-20200621232751-01d4955beaa5</version>
+      <purl>pkg:golang/github.com/gostaticanalysis/forcetypeassert@v0.0.0-20200621232751-01d4955beaa5</purl>
+    </component>
+    <component type="library">
+      <name>github.com/gostaticanalysis/nilerr</name>
+      <version>v0.1.1</version>
+      <purl>pkg:golang/github.com/gostaticanalysis/nilerr@v0.1.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/hashicorp/errwrap</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/github.com/hashicorp/errwrap@v1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/hashicorp/go-multierror</name>
+      <version>v1.1.1</version>
+      <purl>pkg:golang/github.com/hashicorp/go-multierror@v1.1.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/hashicorp/golang-lru</name>
+      <version>v0.5.4</version>
+      <purl>pkg:golang/github.com/hashicorp/golang-lru@v0.5.4</purl>
+    </component>
+    <component type="library">
+      <name>github.com/hashicorp/golang-lru</name>
+      <version>v0.5.4</version>
+      <purl>pkg:golang/github.com/hashicorp/golang-lru@v0.5.4</purl>
+    </component>
+    <component type="library">
+      <name>github.com/hashicorp/hcl</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/github.com/hashicorp/hcl@v1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/imdario/mergo</name>
+      <version>v0.3.10</version>
+      <purl>pkg:golang/github.com/imdario/mergo@v0.3.10</purl>
+    </component>
+    <component type="library">
+      <name>github.com/imdario/mergo</name>
+      <version>v0.3.10</version>
+      <purl>pkg:golang/github.com/imdario/mergo@v0.3.10</purl>
+    </component>
+    <component type="library">
+      <name>github.com/jgautheron/goconst</name>
+      <version>v1.5.1</version>
+      <purl>pkg:golang/github.com/jgautheron/goconst@v1.5.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/jingyugao/rowserrcheck</name>
+      <version>v1.1.0</version>
+      <purl>pkg:golang/github.com/jingyugao/rowserrcheck@v1.1.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/jirfag/go-printf-func-name</name>
+      <version>v0.0.0-20200119135958-7558a9eaa5af</version>
+      <purl>pkg:golang/github.com/jirfag/go-printf-func-name@v0.0.0-20200119135958-7558a9eaa5af</purl>
+    </component>
+    <component type="library">
+      <name>github.com/json-iterator/go</name>
+      <version>v1.1.10</version>
+      <purl>pkg:golang/github.com/json-iterator/go@v1.1.10</purl>
+    </component>
+    <component type="library">
+      <name>github.com/json-iterator/go</name>
+      <version>v1.1.10</version>
+      <purl>pkg:golang/github.com/json-iterator/go@v1.1.10</purl>
+    </component>
+    <component type="library">
+      <name>github.com/json-iterator/go</name>
+      <version>v1.1.8</version>
+      <purl>pkg:golang/github.com/json-iterator/go@v1.1.8</purl>
+    </component>
+    <component type="library">
+      <name>github.com/julz/importas</name>
+      <version>v0.0.0-20210419104244-841f0c0fe66d</version>
+      <purl>pkg:golang/github.com/julz/importas@v0.0.0-20210419104244-841f0c0fe66d</purl>
+    </component>
+    <component type="library">
+      <name>github.com/kisielk/errcheck</name>
+      <version>v1.6.0</version>
+      <purl>pkg:golang/github.com/kisielk/errcheck@v1.6.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/kisielk/gotool</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/github.com/kisielk/gotool@v1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/kulti/thelper</name>
+      <version>v0.4.0</version>
+      <purl>pkg:golang/github.com/kulti/thelper@v0.4.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/kunwardeep/paralleltest</name>
+      <version>v1.0.2</version>
+      <purl>pkg:golang/github.com/kunwardeep/paralleltest@v1.0.2</purl>
+    </component>
+    <component type="library">
+      <name>github.com/kyoh86/exportloopref</name>
+      <version>v0.1.8</version>
+      <purl>pkg:golang/github.com/kyoh86/exportloopref@v0.1.8</purl>
+    </component>
+    <component type="library">
+      <name>github.com/ldez/gomoddirectives</name>
+      <version>v0.2.2</version>
+      <purl>pkg:golang/github.com/ldez/gomoddirectives@v0.2.2</purl>
+    </component>
+    <component type="library">
+      <name>github.com/ldez/tagliatelle</name>
+      <version>v0.2.0</version>
+      <purl>pkg:golang/github.com/ldez/tagliatelle@v0.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/magiconair/properties</name>
+      <version>v1.8.5</version>
+      <purl>pkg:golang/github.com/magiconair/properties@v1.8.5</purl>
+    </component>
+    <component type="library">
+      <name>github.com/maratori/testpackage</name>
+      <version>v1.0.1</version>
+      <purl>pkg:golang/github.com/maratori/testpackage@v1.0.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/matoous/godox</name>
+      <version>v0.0.0-20210227103229-6504466cf951</version>
+      <purl>pkg:golang/github.com/matoous/godox@v0.0.0-20210227103229-6504466cf951</purl>
+    </component>
+    <component type="library">
+      <name>github.com/mattn/go-colorable</name>
+      <version>v0.1.2</version>
+      <purl>pkg:golang/github.com/mattn/go-colorable@v0.1.2</purl>
+    </component>
+    <component type="library">
+      <name>github.com/mattn/go-colorable</name>
+      <version>v0.1.8</version>
+      <purl>pkg:golang/github.com/mattn/go-colorable@v0.1.8</purl>
+    </component>
+    <component type="library">
+      <name>github.com/mattn/go-isatty</name>
+      <version>v0.0.12</version>
+      <purl>pkg:golang/github.com/mattn/go-isatty@v0.0.12</purl>
+    </component>
+    <component type="library">
+      <name>github.com/mattn/go-isatty</name>
+      <version>v0.0.8</version>
+      <purl>pkg:golang/github.com/mattn/go-isatty@v0.0.8</purl>
+    </component>
+    <component type="library">
+      <name>github.com/mattn/go-runewidth</name>
+      <version>v0.0.9</version>
+      <purl>pkg:golang/github.com/mattn/go-runewidth@v0.0.9</purl>
+    </component>
+    <component type="library">
+      <name>github.com/matttproud/golang_protobuf_extensions</name>
+      <version>v1.0.1</version>
+      <purl>pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/matttproud/golang_protobuf_extensions</name>
+      <version>v1.0.2-0.20181231171920-c182affec369</version>
+      <purl>pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369</purl>
+    </component>
+    <component type="library">
+      <name>github.com/matttproud/golang_protobuf_extensions</name>
+      <version>v1.0.2-0.20181231171920-c182affec369</version>
+      <purl>pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369</purl>
+    </component>
+    <component type="library">
+      <name>github.com/maxbrunsfeld/counterfeiter/v6</name>
+      <version>v6.4.1</version>
+      <purl>pkg:golang/github.com/maxbrunsfeld/counterfeiter/v6@v6.4.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/mbilski/exhaustivestruct</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/github.com/mbilski/exhaustivestruct@v1.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/mgechev/dots</name>
+      <version>v0.0.0-20190921121421-c36f7dcfbb81</version>
+      <purl>pkg:golang/github.com/mgechev/dots@v0.0.0-20190921121421-c36f7dcfbb81</purl>
+    </component>
+    <component type="library">
+      <name>github.com/mgechev/revive</name>
+      <version>v1.1.1</version>
+      <purl>pkg:golang/github.com/mgechev/revive@v1.1.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/mitchellh/go-homedir</name>
+      <version>v1.1.0</version>
+      <purl>pkg:golang/github.com/mitchellh/go-homedir@v1.1.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/mitchellh/mapstructure</name>
+      <version>v1.4.1</version>
+      <purl>pkg:golang/github.com/mitchellh/mapstructure@v1.4.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/modern-go/concurrent</name>
+      <version>v0.0.0-20180306012644-bacd9c7ef1dd</version>
+      <purl>pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd</purl>
+    </component>
+    <component type="library">
+      <name>github.com/modern-go/concurrent</name>
+      <version>v0.0.0-20180306012644-bacd9c7ef1dd</version>
+      <purl>pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd</purl>
+    </component>
+    <component type="library">
+      <name>github.com/modern-go/concurrent</name>
+      <version>v0.0.0-20180306012644-bacd9c7ef1dd</version>
+      <purl>pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd</purl>
+    </component>
+    <component type="library">
+      <name>github.com/modern-go/reflect2</name>
+      <version>v1.0.1</version>
+      <purl>pkg:golang/github.com/modern-go/reflect2@v1.0.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/modern-go/reflect2</name>
+      <version>v1.0.1</version>
+      <purl>pkg:golang/github.com/modern-go/reflect2@v1.0.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/modern-go/reflect2</name>
+      <version>v1.0.1</version>
+      <purl>pkg:golang/github.com/modern-go/reflect2@v1.0.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/moricho/tparallel</name>
+      <version>v0.2.1</version>
+      <purl>pkg:golang/github.com/moricho/tparallel@v0.2.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/nakabonne/nestif</name>
+      <version>v0.3.0</version>
+      <purl>pkg:golang/github.com/nakabonne/nestif@v0.3.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/nbutton23/zxcvbn-go</name>
+      <version>v0.0.0-20210217022336-fa2cb2858354</version>
+      <purl>pkg:golang/github.com/nbutton23/zxcvbn-go@v0.0.0-20210217022336-fa2cb2858354</purl>
+    </component>
+    <component type="library">
+      <name>github.com/nishanths/exhaustive</name>
+      <version>v0.2.3</version>
+      <purl>pkg:golang/github.com/nishanths/exhaustive@v0.2.3</purl>
+    </component>
+    <component type="library">
+      <name>github.com/nishanths/predeclared</name>
+      <version>v0.2.1</version>
+      <purl>pkg:golang/github.com/nishanths/predeclared@v0.2.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/nxadm/tail</name>
+      <version>v1.4.8</version>
+      <purl>pkg:golang/github.com/nxadm/tail@v1.4.8</purl>
+    </component>
+    <component type="library">
+      <name>github.com/olekukonko/tablewriter</name>
+      <version>v0.0.5</version>
+      <purl>pkg:golang/github.com/olekukonko/tablewriter@v0.0.5</purl>
+    </component>
+    <component type="library">
+      <name>github.com/onsi/ginkgo</name>
+      <version>v1.16.4</version>
+      <purl>pkg:golang/github.com/onsi/ginkgo@v1.16.4</purl>
+    </component>
+    <component type="library">
+      <name>github.com/onsi/gomega</name>
+      <version>v1.13.0</version>
+      <purl>pkg:golang/github.com/onsi/gomega@v1.13.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/open-policy-agent/opa</name>
+      <version>v0.29.4</version>
+      <purl>pkg:golang/github.com/open-policy-agent/opa@v0.29.4</purl>
+    </component>
+    <component type="library">
+      <name>github.com/open-policy-agent/opa</name>
+      <version>v0.29.4</version>
+      <purl>pkg:golang/github.com/open-policy-agent/opa@v0.29.4</purl>
+    </component>
+    <component type="library">
+      <name>github.com/pelletier/go-toml</name>
+      <version>v1.9.3</version>
+      <purl>pkg:golang/github.com/pelletier/go-toml@v1.9.3</purl>
+    </component>
+    <component type="library">
+      <name>github.com/phayes/checkstyle</name>
+      <version>v0.0.0-20170904204023-bfd46e6a821d</version>
+      <purl>pkg:golang/github.com/phayes/checkstyle@v0.0.0-20170904204023-bfd46e6a821d</purl>
+    </component>
+    <component type="library">
+      <name>github.com/pivotal-cf/insight-metadata-client-lib</name>
+      <version>v1.0.0-beta.1</version>
+      <purl>pkg:golang/github.com/pivotal-cf/insight-metadata-client-lib@v1.0.0-beta.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/pivotal-cf/insight-metadata-client-lib</name>
+      <version>v1.0.0-beta.1</version>
+      <purl>pkg:golang/github.com/pivotal-cf/insight-metadata-client-lib@v1.0.0-beta.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/pkg/errors</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/github.com/pkg/errors@v0.9.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/pkg/errors</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/github.com/pkg/errors@v0.9.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/pkg/errors</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/github.com/pkg/errors@v0.9.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/pmezard/go-difflib</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/github.com/pmezard/go-difflib@v1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/polyfloyd/go-errorlint</name>
+      <version>v0.0.0-20210722154253-910bb7978349</version>
+      <purl>pkg:golang/github.com/polyfloyd/go-errorlint@v0.0.0-20210722154253-910bb7978349</purl>
+    </component>
+    <component type="library">
+      <name>github.com/prometheus/client_golang</name>
+      <version>v1.7.1</version>
+      <purl>pkg:golang/github.com/prometheus/client_golang@v1.7.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/prometheus/client_golang</name>
+      <version>v1.7.1</version>
+      <purl>pkg:golang/github.com/prometheus/client_golang@v1.7.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/prometheus/client_golang</name>
+      <version>v1.7.1</version>
+      <purl>pkg:golang/github.com/prometheus/client_golang@v1.7.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/prometheus/client_model</name>
+      <version>v0.2.0</version>
+      <purl>pkg:golang/github.com/prometheus/client_model@v0.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/prometheus/client_model</name>
+      <version>v0.2.0</version>
+      <purl>pkg:golang/github.com/prometheus/client_model@v0.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/prometheus/client_model</name>
+      <version>v0.2.0</version>
+      <purl>pkg:golang/github.com/prometheus/client_model@v0.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/prometheus/common</name>
+      <version>v0.10.0</version>
+      <purl>pkg:golang/github.com/prometheus/common@v0.10.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/prometheus/common</name>
+      <version>v0.14.0</version>
+      <purl>pkg:golang/github.com/prometheus/common@v0.14.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/prometheus/common</name>
+      <version>v0.14.0</version>
+      <purl>pkg:golang/github.com/prometheus/common@v0.14.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/prometheus/procfs</name>
+      <version>v0.2.0</version>
+      <purl>pkg:golang/github.com/prometheus/procfs@v0.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/prometheus/procfs</name>
+      <version>v0.2.0</version>
+      <purl>pkg:golang/github.com/prometheus/procfs@v0.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/prometheus/procfs</name>
+      <version>v0.6.0</version>
+      <purl>pkg:golang/github.com/prometheus/procfs@v0.6.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/quasilyte/go-ruleguard</name>
+      <version>v0.3.4</version>
+      <purl>pkg:golang/github.com/quasilyte/go-ruleguard@v0.3.4</purl>
+    </component>
+    <component type="library">
+      <name>github.com/quasilyte/regex/syntax</name>
+      <version>v0.0.0-20200407221936-30656e2c4a95</version>
+      <purl>pkg:golang/github.com/quasilyte/regex/syntax@v0.0.0-20200407221936-30656e2c4a95</purl>
+    </component>
+    <component type="library">
+      <name>github.com/rcrowley/go-metrics</name>
+      <version>v0.0.0-20200313005456-10cdbea86bc0</version>
+      <purl>pkg:golang/github.com/rcrowley/go-metrics@v0.0.0-20200313005456-10cdbea86bc0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/rcrowley/go-metrics</name>
+      <version>v0.0.0-20200313005456-10cdbea86bc0</version>
+      <purl>pkg:golang/github.com/rcrowley/go-metrics@v0.0.0-20200313005456-10cdbea86bc0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/ryancurrah/gomodguard</name>
+      <version>v1.2.3</version>
+      <purl>pkg:golang/github.com/ryancurrah/gomodguard@v1.2.3</purl>
+    </component>
+    <component type="library">
+      <name>github.com/ryanrolds/sqlclosecheck</name>
+      <version>v0.3.0</version>
+      <purl>pkg:golang/github.com/ryanrolds/sqlclosecheck@v0.3.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/sanposhiho/wastedassign/v2</name>
+      <version>v2.0.6</version>
+      <purl>pkg:golang/github.com/sanposhiho/wastedassign/v2@v2.0.6</purl>
+    </component>
+    <component type="library">
+      <name>github.com/securego/gosec/v2</name>
+      <version>v2.8.1</version>
+      <purl>pkg:golang/github.com/securego/gosec/v2@v2.8.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/shazow/go-diff</name>
+      <version>v0.0.0-20160112020656-b6b7b6733b8c</version>
+      <purl>pkg:golang/github.com/shazow/go-diff@v0.0.0-20160112020656-b6b7b6733b8c</purl>
+    </component>
+    <component type="library">
+      <name>github.com/sirupsen/logrus</name>
+      <version>v1.8.1</version>
+      <purl>pkg:golang/github.com/sirupsen/logrus@v1.8.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/sonatard/noctx</name>
+      <version>v0.0.1</version>
+      <purl>pkg:golang/github.com/sonatard/noctx@v0.0.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/sourcegraph/go-diff</name>
+      <version>v0.6.1</version>
+      <purl>pkg:golang/github.com/sourcegraph/go-diff@v0.6.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/spf13/afero</name>
+      <version>v1.6.0</version>
+      <purl>pkg:golang/github.com/spf13/afero@v1.6.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/spf13/cast</name>
+      <version>v1.3.1</version>
+      <purl>pkg:golang/github.com/spf13/cast@v1.3.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/spf13/cobra</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/github.com/spf13/cobra@v1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/spf13/cobra</name>
+      <version>v1.2.1</version>
+      <purl>pkg:golang/github.com/spf13/cobra@v1.2.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/spf13/jwalterweatherman</name>
+      <version>v1.1.0</version>
+      <purl>pkg:golang/github.com/spf13/jwalterweatherman@v1.1.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/spf13/pflag</name>
+      <version>v1.0.5</version>
+      <purl>pkg:golang/github.com/spf13/pflag@v1.0.5</purl>
+    </component>
+    <component type="library">
+      <name>github.com/spf13/pflag</name>
+      <version>v1.0.5</version>
+      <purl>pkg:golang/github.com/spf13/pflag@v1.0.5</purl>
+    </component>
+    <component type="library">
+      <name>github.com/spf13/pflag</name>
+      <version>v1.0.5</version>
+      <purl>pkg:golang/github.com/spf13/pflag@v1.0.5</purl>
+    </component>
+    <component type="library">
+      <name>github.com/spf13/pflag</name>
+      <version>v1.0.5</version>
+      <purl>pkg:golang/github.com/spf13/pflag@v1.0.5</purl>
+    </component>
+    <component type="library">
+      <name>github.com/spf13/viper</name>
+      <version>v1.8.1</version>
+      <purl>pkg:golang/github.com/spf13/viper@v1.8.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/ssgreg/nlreturn/v2</name>
+      <version>v2.1.0</version>
+      <purl>pkg:golang/github.com/ssgreg/nlreturn/v2@v2.1.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/stretchr/objx</name>
+      <version>v0.1.1</version>
+      <purl>pkg:golang/github.com/stretchr/objx@v0.1.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/stretchr/testify</name>
+      <version>v1.7.0</version>
+      <purl>pkg:golang/github.com/stretchr/testify@v1.7.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/subosito/gotenv</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/github.com/subosito/gotenv@v1.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/tdakkota/asciicheck</name>
+      <version>v0.0.0-20200416200610-e657995f937b</version>
+      <purl>pkg:golang/github.com/tdakkota/asciicheck@v0.0.0-20200416200610-e657995f937b</purl>
+    </component>
+    <component type="library">
+      <name>github.com/tetafro/godot</name>
+      <version>v1.4.9</version>
+      <purl>pkg:golang/github.com/tetafro/godot@v1.4.9</purl>
+    </component>
+    <component type="library">
+      <name>github.com/timakin/bodyclose</name>
+      <version>v0.0.0-20200424151742-cb6215831a94</version>
+      <purl>pkg:golang/github.com/timakin/bodyclose@v0.0.0-20200424151742-cb6215831a94</purl>
+    </component>
+    <component type="library">
+      <name>github.com/tomarrell/wrapcheck/v2</name>
+      <version>v2.3.0</version>
+      <purl>pkg:golang/github.com/tomarrell/wrapcheck/v2@v2.3.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/tommy-muehle/go-mnd/v2</name>
+      <version>v2.4.0</version>
+      <purl>pkg:golang/github.com/tommy-muehle/go-mnd/v2@v2.4.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/ultraware/funlen</name>
+      <version>v0.0.3</version>
+      <purl>pkg:golang/github.com/ultraware/funlen@v0.0.3</purl>
+    </component>
+    <component type="library">
+      <name>github.com/ultraware/whitespace</name>
+      <version>v0.0.4</version>
+      <purl>pkg:golang/github.com/ultraware/whitespace@v0.0.4</purl>
+    </component>
+    <component type="library">
+      <name>github.com/uudashr/gocognit</name>
+      <version>v1.0.5</version>
+      <purl>pkg:golang/github.com/uudashr/gocognit@v1.0.5</purl>
+    </component>
+    <component type="library">
+      <name>github.com/xeipuuv/gojsonpointer</name>
+      <version>v0.0.0-20190905194746-02993c407bfb</version>
+      <purl>pkg:golang/github.com/xeipuuv/gojsonpointer@v0.0.0-20190905194746-02993c407bfb</purl>
+    </component>
+    <component type="library">
+      <name>github.com/xeipuuv/gojsonpointer</name>
+      <version>v0.0.0-20190905194746-02993c407bfb</version>
+      <purl>pkg:golang/github.com/xeipuuv/gojsonpointer@v0.0.0-20190905194746-02993c407bfb</purl>
+    </component>
+    <component type="library">
+      <name>github.com/xeipuuv/gojsonreference</name>
+      <version>v0.0.0-20180127040603-bd5ef7bd5415</version>
+      <purl>pkg:golang/github.com/xeipuuv/gojsonreference@v0.0.0-20180127040603-bd5ef7bd5415</purl>
+    </component>
+    <component type="library">
+      <name>github.com/xeipuuv/gojsonreference</name>
+      <version>v0.0.0-20180127040603-bd5ef7bd5415</version>
+      <purl>pkg:golang/github.com/xeipuuv/gojsonreference@v0.0.0-20180127040603-bd5ef7bd5415</purl>
+    </component>
+    <component type="library">
+      <name>github.com/yashtewari/glob-intersection</name>
+      <version>v0.0.0-20180916065949-5c77d914dd0b</version>
+      <purl>pkg:golang/github.com/yashtewari/glob-intersection@v0.0.0-20180916065949-5c77d914dd0b</purl>
+    </component>
+    <component type="library">
+      <name>github.com/yashtewari/glob-intersection</name>
+      <version>v0.0.0-20180916065949-5c77d914dd0b</version>
+      <purl>pkg:golang/github.com/yashtewari/glob-intersection@v0.0.0-20180916065949-5c77d914dd0b</purl>
+    </component>
+    <component type="library">
+      <name>github.com/yeya24/promlinter</name>
+      <version>v0.1.0</version>
+      <purl>pkg:golang/github.com/yeya24/promlinter@v0.1.0</purl>
+    </component>
+    <component type="library">
+      <name>go.uber.org/atomic</name>
+      <version>v1.6.0</version>
+      <purl>pkg:golang/go.uber.org/atomic@v1.6.0</purl>
+    </component>
+    <component type="library">
+      <name>go.uber.org/atomic</name>
+      <version>v1.6.0</version>
+      <purl>pkg:golang/go.uber.org/atomic@v1.6.0</purl>
+    </component>
+    <component type="library">
+      <name>go.uber.org/multierr</name>
+      <version>v1.5.0</version>
+      <purl>pkg:golang/go.uber.org/multierr@v1.5.0</purl>
+    </component>
+    <component type="library">
+      <name>go.uber.org/multierr</name>
+      <version>v1.5.0</version>
+      <purl>pkg:golang/go.uber.org/multierr@v1.5.0</purl>
+    </component>
+    <component type="library">
+      <name>go.uber.org/zap</name>
+      <version>v1.15.0</version>
+      <purl>pkg:golang/go.uber.org/zap@v1.15.0</purl>
+    </component>
+    <component type="library">
+      <name>go.uber.org/zap</name>
+      <version>v1.15.0</version>
+      <purl>pkg:golang/go.uber.org/zap@v1.15.0</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/crypto</name>
+      <version>v0.0.0-20210220033148-5ea612d1eb83</version>
+      <purl>pkg:golang/golang.org/x/crypto@v0.0.0-20210220033148-5ea612d1eb83</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/crypto</name>
+      <version>v0.0.0-20210220033148-5ea612d1eb83</version>
+      <purl>pkg:golang/golang.org/x/crypto@v0.0.0-20210220033148-5ea612d1eb83</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/mod</name>
+      <version>v0.2.0</version>
+      <purl>pkg:golang/golang.org/x/mod@v0.2.0</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/mod</name>
+      <version>v0.4.2</version>
+      <purl>pkg:golang/golang.org/x/mod@v0.4.2</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/mod</name>
+      <version>v0.4.2</version>
+      <purl>pkg:golang/golang.org/x/mod@v0.4.2</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20200226121028-0de0cce0169b</version>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20200226121028-0de0cce0169b</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20210428140749-89ef3d95e781</version>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20210428140749-89ef3d95e781</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20210428140749-89ef3d95e781</version>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20210428140749-89ef3d95e781</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/oauth2</name>
+      <version>v0.0.0-20200107190931-bf48bf16ab8d</version>
+      <purl>pkg:golang/golang.org/x/oauth2@v0.0.0-20200107190931-bf48bf16ab8d</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/oauth2</name>
+      <version>v0.0.0-20200107190931-bf48bf16ab8d</version>
+      <purl>pkg:golang/golang.org/x/oauth2@v0.0.0-20200107190931-bf48bf16ab8d</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20210510120138-977fb7262007</version>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20210510120138-977fb7262007</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20210510120138-977fb7262007</version>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20210510120138-977fb7262007</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20210630005230-0f9fa26af87c</version>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20210630005230-0f9fa26af87c</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/term</name>
+      <version>v0.0.0-20201126162022-7de9c90e9dd1</version>
+      <purl>pkg:golang/golang.org/x/term@v0.0.0-20201126162022-7de9c90e9dd1</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/term</name>
+      <version>v0.0.0-20201126162022-7de9c90e9dd1</version>
+      <purl>pkg:golang/golang.org/x/term@v0.0.0-20201126162022-7de9c90e9dd1</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.2</version>
+      <purl>pkg:golang/golang.org/x/text@v0.3.2</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.6</version>
+      <purl>pkg:golang/golang.org/x/text@v0.3.6</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.6</version>
+      <purl>pkg:golang/golang.org/x/text@v0.3.6</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.6</version>
+      <purl>pkg:golang/golang.org/x/text@v0.3.6</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/time</name>
+      <version>v0.0.0-20210220033141-f8bda1e9f3ba</version>
+      <purl>pkg:golang/golang.org/x/time@v0.0.0-20210220033141-f8bda1e9f3ba</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/time</name>
+      <version>v0.0.0-20210220033141-f8bda1e9f3ba</version>
+      <purl>pkg:golang/golang.org/x/time@v0.0.0-20210220033141-f8bda1e9f3ba</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/tools</name>
+      <version>v0.0.0-20200616195046-dc31b401abb5</version>
+      <purl>pkg:golang/golang.org/x/tools@v0.0.0-20200616195046-dc31b401abb5</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/tools</name>
+      <version>v0.1.2-0.20210512205948-8287d5da45e4</version>
+      <purl>pkg:golang/golang.org/x/tools@v0.1.2-0.20210512205948-8287d5da45e4</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/tools</name>
+      <version>v0.1.5</version>
+      <purl>pkg:golang/golang.org/x/tools@v0.1.5</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/xerrors</name>
+      <version>v0.0.0-20191204190536-9bdfabe68543</version>
+      <purl>pkg:golang/golang.org/x/xerrors@v0.0.0-20191204190536-9bdfabe68543</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/xerrors</name>
+      <version>v0.0.0-20200804184101-5ec99f83aff1</version>
+      <purl>pkg:golang/golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/xerrors</name>
+      <version>v0.0.0-20200804184101-5ec99f83aff1</version>
+      <purl>pkg:golang/golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1</purl>
+    </component>
+    <component type="library">
+      <name>gomodules.xyz/jsonpatch/v2</name>
+      <version>v2.1.0</version>
+      <purl>pkg:golang/gomodules.xyz/jsonpatch/v2@v2.1.0</purl>
+    </component>
+    <component type="library">
+      <name>gomodules.xyz/jsonpatch/v2</name>
+      <version>v2.1.0</version>
+      <purl>pkg:golang/gomodules.xyz/jsonpatch/v2@v2.1.0</purl>
+    </component>
+    <component type="library">
+      <name>google.golang.org/appengine</name>
+      <version>v1.6.6</version>
+      <purl>pkg:golang/google.golang.org/appengine@v1.6.6</purl>
+    </component>
+    <component type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.26.0</version>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.26.0</purl>
+    </component>
+    <component type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.26.0</version>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.26.0</purl>
+    </component>
+    <component type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.26.0</version>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.26.0</purl>
+    </component>
+    <component type="library">
+      <name>gopkg.in/inf.v0</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/gopkg.in/inf.v0@v0.9.1</purl>
+    </component>
+    <component type="library">
+      <name>gopkg.in/inf.v0</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/gopkg.in/inf.v0@v0.9.1</purl>
+    </component>
+    <component type="library">
+      <name>gopkg.in/inf.v0</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/gopkg.in/inf.v0@v0.9.1</purl>
+    </component>
+    <component type="library">
+      <name>gopkg.in/ini.v1</name>
+      <version>v1.62.0</version>
+      <purl>pkg:golang/gopkg.in/ini.v1@v1.62.0</purl>
+    </component>
+    <component type="library">
+      <name>gopkg.in/tomb.v1</name>
+      <version>v1.0.0-20141024135613-dd632973f1e7</version>
+      <purl>pkg:golang/gopkg.in/tomb.v1@v1.0.0-20141024135613-dd632973f1e7</purl>
+    </component>
+    <component type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.2.8</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.2.8</purl>
+    </component>
+    <component type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.4.0</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.4.0</purl>
+    </component>
+    <component type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.4.0</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.4.0</purl>
+    </component>
+    <component type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.4.0</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.4.0</purl>
+    </component>
+    <component type="library">
+      <name>gopkg.in/yaml.v3</name>
+      <version>v3.0.0-20190905181640-827449938966</version>
+      <purl>pkg:golang/gopkg.in/yaml.v3@v3.0.0-20190905181640-827449938966</purl>
+    </component>
+    <component type="library">
+      <name>gopkg.in/yaml.v3</name>
+      <version>v3.0.0-20200615113413-eeeca48fe776</version>
+      <purl>pkg:golang/gopkg.in/yaml.v3@v3.0.0-20200615113413-eeeca48fe776</purl>
+    </component>
+    <component type="library">
+      <name>gopkg.in/yaml.v3</name>
+      <version>v3.0.0-20200615113413-eeeca48fe776</version>
+      <purl>pkg:golang/gopkg.in/yaml.v3@v3.0.0-20200615113413-eeeca48fe776</purl>
+    </component>
+    <component type="library">
+      <name>gopkg.in/yaml.v3</name>
+      <version>v3.0.0-20210107192922-496545a6307b</version>
+      <purl>pkg:golang/gopkg.in/yaml.v3@v3.0.0-20210107192922-496545a6307b</purl>
+    </component>
+    <component type="library">
+      <name>honnef.co/go/tools</name>
+      <version>v0.2.1</version>
+      <purl>pkg:golang/honnef.co/go/tools@v0.2.1</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/api</name>
+      <version>v0.18.2</version>
+      <purl>pkg:golang/k8s.io/api@v0.18.2</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/api</name>
+      <version>v0.20.2</version>
+      <purl>pkg:golang/k8s.io/api@v0.20.2</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/api</name>
+      <version>v0.20.2</version>
+      <purl>pkg:golang/k8s.io/api@v0.20.2</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/apiextensions-apiserver</name>
+      <version>v0.18.2</version>
+      <purl>pkg:golang/k8s.io/apiextensions-apiserver@v0.18.2</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/apiextensions-apiserver</name>
+      <version>v0.20.1</version>
+      <purl>pkg:golang/k8s.io/apiextensions-apiserver@v0.20.1</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/apiextensions-apiserver</name>
+      <version>v0.20.1</version>
+      <purl>pkg:golang/k8s.io/apiextensions-apiserver@v0.20.1</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/apimachinery</name>
+      <version>v0.18.2</version>
+      <purl>pkg:golang/k8s.io/apimachinery@v0.18.2</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/apimachinery</name>
+      <version>v0.20.2</version>
+      <purl>pkg:golang/k8s.io/apimachinery@v0.20.2</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/apimachinery</name>
+      <version>v0.20.2</version>
+      <purl>pkg:golang/k8s.io/apimachinery@v0.20.2</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/client-go</name>
+      <version>v0.20.2</version>
+      <purl>pkg:golang/k8s.io/client-go@v0.20.2</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/client-go</name>
+      <version>v0.20.2</version>
+      <purl>pkg:golang/k8s.io/client-go@v0.20.2</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/component-base</name>
+      <version>v0.20.2</version>
+      <purl>pkg:golang/k8s.io/component-base@v0.20.2</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/component-base</name>
+      <version>v0.20.2</version>
+      <purl>pkg:golang/k8s.io/component-base@v0.20.2</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/klog</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/k8s.io/klog@v1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/klog/v2</name>
+      <version>v2.4.0</version>
+      <purl>pkg:golang/k8s.io/klog/v2@v2.4.0</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/klog/v2</name>
+      <version>v2.4.0</version>
+      <purl>pkg:golang/k8s.io/klog/v2@v2.4.0</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/kube-openapi</name>
+      <version>v0.0.0-20201113171705-d219536bb9fd</version>
+      <purl>pkg:golang/k8s.io/kube-openapi@v0.0.0-20201113171705-d219536bb9fd</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/kube-openapi</name>
+      <version>v0.0.0-20201113171705-d219536bb9fd</version>
+      <purl>pkg:golang/k8s.io/kube-openapi@v0.0.0-20201113171705-d219536bb9fd</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/utils</name>
+      <version>v0.0.0-20200324210504-a9aa75ae1b89</version>
+      <purl>pkg:golang/k8s.io/utils@v0.0.0-20200324210504-a9aa75ae1b89</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/utils</name>
+      <version>v0.0.0-20210111153108-fddb29f9d009</version>
+      <purl>pkg:golang/k8s.io/utils@v0.0.0-20210111153108-fddb29f9d009</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/utils</name>
+      <version>v0.0.0-20210111153108-fddb29f9d009</version>
+      <purl>pkg:golang/k8s.io/utils@v0.0.0-20210111153108-fddb29f9d009</purl>
+    </component>
+    <component type="library">
+      <name>mvdan.cc/gofumpt</name>
+      <version>v0.1.1</version>
+      <purl>pkg:golang/mvdan.cc/gofumpt@v0.1.1</purl>
+    </component>
+    <component type="library">
+      <name>mvdan.cc/interfacer</name>
+      <version>v0.0.0-20180901003855-c20040233aed</version>
+      <purl>pkg:golang/mvdan.cc/interfacer@v0.0.0-20180901003855-c20040233aed</purl>
+    </component>
+    <component type="library">
+      <name>mvdan.cc/lint</name>
+      <version>v0.0.0-20170908181259-adc824a0674b</version>
+      <purl>pkg:golang/mvdan.cc/lint@v0.0.0-20170908181259-adc824a0674b</purl>
+    </component>
+    <component type="library">
+      <name>mvdan.cc/unparam</name>
+      <version>v0.0.0-20210104141923-aac4ce9116a7</version>
+      <purl>pkg:golang/mvdan.cc/unparam@v0.0.0-20210104141923-aac4ce9116a7</purl>
+    </component>
+    <component type="library">
+      <name>sigs.k8s.io/controller-runtime</name>
+      <version>v0.8.3</version>
+      <purl>pkg:golang/sigs.k8s.io/controller-runtime@v0.8.3</purl>
+    </component>
+    <component type="library">
+      <name>sigs.k8s.io/controller-runtime</name>
+      <version>v0.8.3</version>
+      <purl>pkg:golang/sigs.k8s.io/controller-runtime@v0.8.3</purl>
+    </component>
+    <component type="library">
+      <name>sigs.k8s.io/structured-merge-diff/v3</name>
+      <version>v3.0.0</version>
+      <purl>pkg:golang/sigs.k8s.io/structured-merge-diff/v3@v3.0.0</purl>
+    </component>
+    <component type="library">
+      <name>sigs.k8s.io/structured-merge-diff/v4</name>
+      <version>v4.0.2</version>
+      <purl>pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.0.2</purl>
+    </component>
+    <component type="library">
+      <name>sigs.k8s.io/structured-merge-diff/v4</name>
+      <version>v4.0.2</version>
+      <purl>pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.0.2</purl>
+    </component>
+    <component type="library">
+      <name>sigs.k8s.io/yaml</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/sigs.k8s.io/yaml@v1.2.0</purl>
+    </component>
+    <component type="library">
+      <name>sigs.k8s.io/yaml</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/sigs.k8s.io/yaml@v1.2.0</purl>
+    </component>
+    <component type="library">
+      <name>sigs.k8s.io/yaml</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/sigs.k8s.io/yaml@v1.2.0</purl>
+    </component>
+  </components>
+</bom>
